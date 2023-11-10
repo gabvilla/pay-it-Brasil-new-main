@@ -291,7 +291,6 @@ body{
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   margin-top: 50px;
    height: 100vh;
 }
 
@@ -300,11 +299,11 @@ body{
    grid-template-columns: 0.95fr 1.85fr;
    justify-content: center;
    width: 65vw;
-   margin-bottom: 30px;
+   margin-bottom: 80px;
 }
 
 .text-div h1{
-   font-size: 6rem;
+   font-size: 7rem;
    color: var(--darkestpurple);
    letter-spacing: 5px;
 }
@@ -312,16 +311,17 @@ body{
 .text-div h1 b{
    font-family: 'thrifty-medium', Arial, Helvetica, sans-serif;
    color: var(--orange);
+   font-weight: bolder;
 }
 
 .text-div p{
-   font-size: 1.75rem;
+   font-size: 2.5rem;
    color: var(--darkest-gray);
    font-weight: 550;
 }
 
 .banner-img{
-   width: 65vw;
+   width: 70vw;
    border-radius: 30px;
 }
 
@@ -333,6 +333,7 @@ body{
    height: 90vh;
    display: flex;
    justify-content: center;
+   align-items: center;
    overflow: hidden;
    position: relative;
 }
@@ -372,14 +373,13 @@ body{
    justify-content: flex-end;
    align-items: center;
    justify-content: center;
-   margin-top: 40px;
    font-family: 'Thrifty-extra-light', Arial, Helvetica, sans-serif;
    height: 100vh;
    width: 100%;
 }
 
 .texto-parceiros h1{
-   font-size: 3.5rem;
+   font-size: 5rem;
    color: var(--darkestpurple);
 }
 
@@ -390,16 +390,19 @@ body{
 
 .texto-parceiros p{
    color: var(--darkest-gray);
-   font-size: 1.5rem;
+   font-size: 3rem;
 }
 
 .mapaPayIt{
    width: 45%;
    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .mapaPayIt img{
-   width: 40vw;
+   width: 50vw;
    object-fit: cover;
 }
 
@@ -415,15 +418,27 @@ body{
    background: linear-gradient(to right, var(--lighterpurple), var(--darkestpurple));
 }
 
+.h1-container{
+   width: 65%;
+   height: 30%;
+   margin-bottom: 100px;
+}
+
+.solucoes h1{
+   font-size: 6rem;
+   color: var(--white);
+}
+
 .solucoes-container{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   gap: 20px;
+   gap: 40px;
+   height: 50%;
 }
 
-.box-solucoes{
-   width: 200px;
-   height: 200px;
-   border-radius: 25px;
+.box-solucoes{ 
+   border-radius: 55px;
    background-color: var(--gray);
+   width: 25em;
+   height: 25em;
 }
