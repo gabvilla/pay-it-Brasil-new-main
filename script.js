@@ -1,4 +1,4 @@
-const controls = document.querySelectorAll('.arrow');
+const controls = document.querySelectorAll('.carrossel .arrow');
 const slides = document.querySelectorAll('.image');
 const maxSlides = slides.length;
 let currentItem = 0

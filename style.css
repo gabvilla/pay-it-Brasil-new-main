@@ -409,6 +409,7 @@ body{
    height: 100vh;
    font-family: 'Thrifty-medium';
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    background: linear-gradient(to right, var(--lighterpurple), var(--darkestpurple));
@@ -416,10 +417,13 @@ body{
 
 .solucoes-container{
    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
 }
 
 .box-solucoes{
-   width: 50px;
-   height: 50px;
-   background-color: var(--dark-gray);
+   width: 200px;
+   height: 200px;
+   border-radius: 25px;
+   background-color: var(--gray);
 }
