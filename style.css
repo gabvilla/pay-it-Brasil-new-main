@@ -59,11 +59,12 @@ header{
    width: 30%;
    height: 100%;
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
+   align-items: center;
 }
 
 .logo{
-   width: 320px;
+   width: 360px;
    height: 100%;
    object-fit: cover;
 }
@@ -78,7 +79,7 @@ header{
 .menu-btn{
    text-decoration: none;
    color: var(--gray);
-   font-size: 1.75rem;
+   font-size: 2.5rem;
    font-family: 'thrifty-extra-light', Arial, Helvetica, sans-serif;
    transition: 300ms ease-in-out;
    position: relative;
@@ -127,6 +128,7 @@ body{
    width: 100%;
    height: auto;
    position: relative;
+   overflow: hidden;
 }
 
 .carrossel-container{
@@ -137,7 +139,7 @@ body{
 }
 
 .carrossel-container img{
-   width: 67.25vw;
+   width: 67.975vw;
    border-radius: 25px;
 }
 
@@ -195,9 +197,9 @@ body{
 }
 
 .dropdown-container{
-   width: 50%;
+   width: 35%;
    display: grid;
-   grid-template-rows: 2fr 3fr 2fr;  
+   grid-template-rows: 2fr 3fr;  
    justify-items: start;
    align-items: start;
 }
@@ -205,26 +207,27 @@ body{
 .h1-container{
    display: flex;
    align-items: center;
+   margin-bottom: 3vh;
 }
 
 .h1-container h1{
    font-family: 'thrifty-bold', Arial, Helvetica, sans-serif;
-   font-size: 3rem;
+   font-size: 4.435rem;
    color: var(--darkestpurple)
 }
 
 .h1-container img{
-   margin-top: 16px;
-   margin-left: 10px;
-   width: 150px;
-   object-fit: contain;
+   margin-top: 2.5vh;
+   margin-left: 0.75vw;
+   width: 10vw;
+   object-fit: contain
 }
 
 .user-select{
-   margin-top: 8px;
-   padding: 6px;
+   margin-top: 0.25vh;
+   padding: 0.5rem;
    background-color: var(--dark-gray);
-   width: 21vw;
+   width: 25vw;
    font-family: 'thrifty-extra-light';
    text-align: start;
    color: var(--darkest-gray);
@@ -236,6 +239,7 @@ body{
 .select-placeholder{
    display: flex;
    justify-content: space-around;
+   font-size: 1.5rem;
 }
 
 .select-placeholder p{
@@ -253,10 +257,10 @@ body{
 .option{
    transition: all 300ms ease-in-out;
    -webkit-transition: all 200ms ease-in-out;
-   margin-top: 3px;
+   margin-top: 1vh;
    width: 100%;
    text-align: start;
-   text-indent: 15px;
+   text-indent: 1vw;
    text-decoration: none;
    color: var(--darkest-gray);
    padding: 2px;
@@ -271,16 +275,17 @@ body{
 .select-list.active{
    display: flex;
    flex-direction: column;
+   font-size: 1.5rem;
 }
 
 .maquininha-container{
-   width: 50%;
+   width: 65%;
    display: flex;
    justify-content: end;
 }
 
 .maquin-img{
-   width: 37.5vw;
+   width: 33.5vw;
    border-radius: 27.5px;
 }
  /*SOBRE NÓS SECTION*/
@@ -292,6 +297,7 @@ body{
    align-items: center;
    justify-content: center;
    height: 100vh;
+   width: 100%;
 }
 
 .text-div{
@@ -418,7 +424,7 @@ body{
    background: linear-gradient(to right, var(--lighterpurple), var(--darkestpurple));
 }
 
-.h1-container{
+.h1-cont{
    width: 65%;
    height: 30%;
    margin-bottom: 100px;
