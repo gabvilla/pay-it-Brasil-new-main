@@ -146,6 +146,7 @@ body{
 .image{
    opacity: 0.6;
    transition: 300ms ease-in-out;
+   width: 100%;
 }
 
 .current-image{
