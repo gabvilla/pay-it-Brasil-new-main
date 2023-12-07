@@ -21,15 +21,13 @@ controls.forEach((arrow) => {
          currentItem = 0
       }
 
+      slides.forEach((slide) => slide.classList.remove('last-image'));
       slides.forEach((slide) => slide.classList.remove('current-image'));
-   
-      slides[currentItem].scrollIntoView({
-         behavior: 'smooth',
-         inline: 'center'
-      })
+      slides.forEach((slide) => slide.classList.remove('next-image'));
 
+      slides[currentItem - 1].classList.add('last-image')
       slides[currentItem].classList.add('current-image')
-
+      slides[currentItem + 1].classList.add('next-image')
    })
 })
 

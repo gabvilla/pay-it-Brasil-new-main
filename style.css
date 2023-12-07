@@ -144,12 +144,19 @@ body{
 }
 
 .image{
-   opacity: 0.6;
    transition: 300ms ease-in-out;
 }
 
+.last-image{
+   transform: translateX(-100%);
+}
+
 .current-image{
-   opacity: 1;
+   transform: translateX(0%);
+}
+
+.next-image{
+   transform: translateX(100%);
 }
 
 .arrows{
