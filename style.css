@@ -64,22 +64,22 @@ header{
 }
 
 .logo{
-   width: 360px;
+   width: 300px;
    height: 100%;
    object-fit: cover;
 }
 
 .menu{
-   width: 40%;
+   width: 60%;
    display: flex;
    justify-content: end;
-   gap: 30px
+   gap: 20px
 }
 
 .menu-btn{
    text-decoration: none;
    color: var(--gray);
-   font-size: 2.5rem;
+   font-size: 1.85rem;
    font-family: 'thrifty-extra-light', Arial, Helvetica, sans-serif;
    transition: 300ms ease-in-out;
    position: relative;
@@ -135,7 +135,7 @@ body{
    display: flex;
    justify-content: flex-start;
    overflow: hidden;
-   width: 68.02%;
+   width: 70%;
 }
 
 .carrossel-container img{
@@ -191,10 +191,10 @@ body{
 /* INFO-DIV WITH DROPDOWN MENU */
 
 .info-cliente{
-   margin-top: 5.25vh;
+   margin: 5.25vh 0 15vh 0;
    width: 100%;
    display: flex;
-   justify-content: center;
+   justify-content: center;   
 }
 
 .info-container{
@@ -204,7 +204,7 @@ body{
 }
 
 .dropdown-container{
-   width: 35%;
+   width: 40%;
    display: grid;
    grid-template-rows: 2fr 3fr;  
    justify-items: start;
@@ -214,12 +214,12 @@ body{
 .h1-container{
    display: flex;
    align-items: center;
-   margin-bottom: 3vh;
+   margin-bottom: 2.85vh;
 }
 
 .h1-container h1{
    font-family: 'thrifty-bold', Arial, Helvetica, sans-serif;
-   font-size: 4.435rem;
+   font-size: 3.2rem;
    color: var(--darkestpurple)
 }
 
@@ -246,7 +246,7 @@ body{
 .select-placeholder{
    display: flex;
    justify-content: space-around;
-   font-size: 1.5rem;
+   font-size: 1.15rem;
 }
 
 .select-placeholder p{
