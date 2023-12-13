@@ -73,7 +73,7 @@ header{
    width: 60%;
    display: flex;
    justify-content: end;
-   gap: 20px
+   gap: 40px
 }
 
 .menu-btn{
@@ -191,7 +191,7 @@ body{
 /* INFO-DIV WITH DROPDOWN MENU */
 
 .info-cliente{
-   margin: 5.25vh 0 15vh 0;
+   margin: 5.25vh 0 0 0;
    width: 100%;
    display: flex;
    justify-content: center;   
@@ -246,7 +246,7 @@ body{
 .select-placeholder{
    display: flex;
    justify-content: space-around;
-   font-size: 1.15rem;
+   font-size: 1.10rem;
 }
 
 .select-placeholder p{
@@ -269,6 +269,7 @@ body{
    text-align: start;
    text-indent: 1vw;
    text-decoration: none;
+   font-size: 1rem;
    color: var(--darkest-gray);
    padding: 2px;
    
@@ -316,7 +317,7 @@ body{
 }
 
 .text-div h1{
-   font-size: 7rem;
+   font-size: 6rem;
    color: var(--darkestpurple);
    letter-spacing: 5px;
 }
@@ -328,7 +329,7 @@ body{
 }
 
 .text-div p{
-   font-size: 2.5rem;
+   font-size: 1.75rem;
    color: var(--darkest-gray);
    font-weight: 550;
 }
@@ -403,7 +404,7 @@ body{
 
 .texto-parceiros p{
    color: var(--darkest-gray);
-   font-size: 3rem;
+   font-size: 2.75rem;
 }
 
 .mapaPayIt{
@@ -415,7 +416,7 @@ body{
 }
 
 .mapaPayIt img{
-   width: 50vw;
+   width: 40vw;
    object-fit: cover;
 }
 
@@ -434,7 +435,7 @@ body{
 .h1-cont{
    width: 65%;
    height: 30%;
-   margin-bottom: 100px;
+   margin-bottom: 50px;
 }
 
 .solucoes h1{
@@ -452,6 +453,6 @@ body{
 .box-solucoes{ 
    border-radius: 55px;
    background-color: var(--gray);
-   width: 25em;
-   height: 25em;
+   width: 18em;
+   height: 18em;
 }
