@@ -346,8 +346,6 @@ body{
    width: 100%;
    height: 90vh;
    display: flex;
-   justify-content: center;
-   align-items: center;
    overflow: hidden;
    position: relative;
 }
@@ -355,29 +353,23 @@ body{
 .carrDir-container{
    display: flex;
    justify-content: flex-start;
+   width: 100%;
+   height: 100%;
 }
 
 .carrosselDiretoria{
    width: 100%;
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
 }
 
 .carrosselDiretoria .box{
-   width: 100vw;
+   width: 1920px;
    z-index: -1;
 }
 
-.carrosselDiretoria .box-1{
-   background-color: red;
-}
-
-.carrosselDiretoria .box-2{
-   background-color: green;
-}
-
-.carrosselDiretoria .box-3{
-   background-color: blue;
+.box img{
+   width: 1920px;
 }
 
 /* NOSSOS PARCEIROS */
@@ -439,7 +431,7 @@ body{
 }
 
 .solucoes h1{
-   font-size: 6rem;
+   font-size: 5.5rem;
    color: var(--white);
 }
 

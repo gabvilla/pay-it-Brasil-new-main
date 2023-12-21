@@ -1,2 +1,90 @@
 @charset 'UTF-8';
 
+@media screen and (max-width: 1440px) {
+   header{
+      height: 185px;
+   }
+
+   .logo{
+      width: 400px;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   .menu-btn{
+      font-size: 2rem;
+   }
+
+   .carrossel-container img{
+      width: 70vw;
+      border-radius: 25px;
+   }
+
+   .info-container {
+      width: 69.25%;
+  }
+
+   .h1-container{
+      margin-bottom: 1vh;
+   }
+
+   .h1-container h1{
+      font-size: 3.85rem;
+   }
+
+   
+   .h1-container img{
+      margin-top: 2.25vh;
+      width: 10.275vw;
+   }
+
+   .user-select {
+      width: 30vw;
+  }
+
+  .select-placeholder {
+      font-size: 1.5rem;
+   }
+
+   .option {
+      font-size: 1.5rem;
+  }
+
+   .maquin-img {
+      width: 35.5vw;
+   }
+
+   .sobre-nos {
+      height: 75vh;
+  }
+
+  .text-div p {
+      font-size: 1.9rem;
+   }
+
+   .banner-img {
+      width: 75vw;
+      border-radius: 30px;
+  }
+
+   .carrossel-diretoria {
+      height: 75vh;
+  }
+
+  .texto-parceiros h1 {
+   font-size: 7rem;
+   }
+
+   .mapaPayIt img {
+      width: 50vw;
+   }
+
+   .h1-cont {
+      height: 20%;
+   }
+
+   .box-solucoes {
+      width: 22em;
+      height: 22em;
+  }
+}
